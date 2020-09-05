@@ -27,8 +27,8 @@ int main()
     std::cout << "Year: ";
     std::cin >> year;
     std::cout << "| Name\t\t|" << Fullname
-        << "\n| Initial\t|" << initial
-        << "\n| Age\t\t|" << age
-        << "\n| Phone number\t|" << pnumber
-        << "\n| Date of birth\t|" << day << "/" << month << "/" << year;
+              << "\n| Initial\t|" << initial
+              << "\n| Age\t\t|" << age
+              << "\n| Phone number\t|" << pnumber
+              << "\n| Date of birth\t|" << day << "/" << month << "/" << year;
 }
